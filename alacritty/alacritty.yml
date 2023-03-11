@@ -1,0 +1,65 @@
+colors:
+  normal:
+    black: '#11111b'
+    green: '#74c7ec'
+    red: '#f38ba8'
+    yellow: '#f2cdcd'
+    magenta: '#cba6f7'
+    blue: '#89b4fa'
+    cyan: '#fab387'
+    white: '#cdd7f4'
+
+  bright: 
+    black: '#11111b'
+    green: '#74c7ec'
+    red: '#f38ba8'
+    yellow: '#f2cdcd'
+    magenta: '#cba6f7'
+    blue: '#89b4fa'
+    cyan: '#fab387'
+    white: '#cdd7f4'
+
+
+  primary:
+    background: '#1e1e2e'
+    foreground: '#cba6f7'
+
+font:
+  bold:
+    family: DejaVu Sans Mono
+    style: Bold
+  bold_italic:
+    family: DejaVu Sans Mono
+    style: Bold Italic
+  italic:
+    family: DejaVu Sans Mono
+    style: Italic
+  normal:
+    family: DejaVu Sans Mono
+    style: Regular
+  offset:
+    x: 0
+    y: 1
+  size: 9.5
+
+
+window:
+  opacity: 1
+  padding:
+    x: 4
+    y: 2
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+  live_config_reload: true
+
+key_bindings:
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize } 
+
+window.opacity: 1 
+
+# Shell 
+shell.program: /bin/zsh

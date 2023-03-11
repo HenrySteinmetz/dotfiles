@@ -1,0 +1,16 @@
+  (m)<BI>[user](fgl)@(m)[host]
+  (fg)----------------
+  (b)<B>CPU(fgl):        <N>[cpu] ([[CpuLoad]])
+  (b)<B>Cores(fgl):      <N>[cores] cores
+  (b)<B>Ram(fgl):        <N>[mem]
+  (b)<B>GPU(fgl):        <N>[gpu]
+  (b)<B>Uptime(fgl):     <N>[uptime]
+  (b)<B>Distro(fgl):     <N>[distro]
+  (b)<B>Kernel(fgl):     <N>[kernel]
+  (b)<B>Shell(fgl):      <N>[shell]
+  (b)<B>Terminal(fgl):   <N>[term]
+  (b)<B>Compositor(fgl): <N>hyprland
+
+
+  (b)[col]
+  (b)[col2]
