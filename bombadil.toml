@@ -9,8 +9,7 @@ dotfiles_dir = "dotfiles"
 # vars = [ "vars.toml" ]
 
 # An array of post install shell commands
-# expample :
- posthooks = [ "git clone https://github.com/zsh-users/zsh-autosuggestions.git > ~/.zsh", "git clone https://github.com/agkozak/zsh-z.git > ~/.zsh", "https://github.com/zsh-users/zsh-syntax-highlighting.git > ~/.zsh" ]
+posthooks = [ "cd dotfiles && chmod +x postinstall.sh && bash postinstall.sh" ]
 
 [settings.dots]
 hyprland = { source = "hypr", target = ".config/hypr" }
