@@ -4,10 +4,10 @@ Arch linux dotfiles
 ## Installation
 ### Archlinux
 ```sh
- sudo pacman -S bombadil && cd
- git clone https://github.com/HenrySteinmetz/dotfiles.git
- cd dotfiles
- bombadil link
+sudo pacman -S toml-bombadil && cd
+git clone https://github.com/HenrySteinmetz/dotfiles.git
+cd dotfiles
+bombadil link
 ```
 
 
