@@ -1,0 +1,19 @@
+/*
+  imports all other css files required
+  github: https://github.com/HenrySteinmetz/ 
+  discord: Handy#1684
+*/
+
+* {
+  font-family: 'Fira Code', 'Symbols Nerd Font Mono';
+  font-size: 16px
+}
+
+window#waybar {
+  border-radius: 45px;
+  background: rgb(31,38,45);
+  background: linear-gradient(90deg, rgba(31,38,45,1) 0%, rgba(72,89,101,1) 72%, rgba(142,123,113,1) 96%, rgba(255,255,255,1) 100%);
+  color: @text;
+}
+
+@import url("/home/henry/.config/waybar/css/css.css");

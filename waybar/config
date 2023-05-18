@@ -1,0 +1,21 @@
+// vi:ft=json
+{
+  // basic config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+  
+  "layer": "top",
+  "position": "top",
+  "height": 32,
+  "width": 1700,
+  "name": "main",
+  "margin-top": 5,
+  "fixed-center": true,
+  "ouput": "DP-1",
+  
+  // modules
+  "include": ["/home/henry/.config/waybar/modules/modules.json"], 
+  "modules-left": ["wlr/workspaces"],
+  "modules-center": ["mpris"],
+  "modules-right": ["clock", "pulseaudio", "memory", "cpu"]
+}

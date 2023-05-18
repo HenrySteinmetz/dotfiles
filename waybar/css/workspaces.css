@@ -1,0 +1,23 @@
+/*
+  workspaces css
+  github: https://github.com/HenrySteinmetz/ 
+  discord: Handy#1684
+*/
+
+@import url("/home/henry/.config/waybar/css/colors.css"); /* custemizable colors */
+
+#workspaces {
+  margin-right: 5px;
+}
+
+#workspaces button {
+  color: @mauve;
+}
+
+#workspaces button.active, #workspaces button.visible {
+  color: #fff;
+}
+
+#workspaces button.hidden, #workspaces button.persistent {
+  color: @mauve;
+}

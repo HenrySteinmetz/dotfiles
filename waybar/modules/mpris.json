@@ -1,0 +1,20 @@
+{
+  // mpris config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+  
+  "mpris": {
+    "format": "{status_icon} {title}",
+    "format-paused": "{status_icon} {title}",
+    "tooltip": true,
+    "tooltip-format": "{artist} - {album} {length} {player}",
+    "player-icons": {
+      "default": " "
+    },
+    "status-icons": {
+      "paused": " ",
+      "playing": " ",
+      "stopped": " "
+    }
+  }
+}

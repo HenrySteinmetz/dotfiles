@@ -1,0 +1,15 @@
+/*
+  imports all other css files required
+  github: https://github.com/HenrySteinmetz/ 
+  discord: Handy#1684
+*/
+
+@import url("/home/henry/.config/waybar/css/colors.css"); /* custemizable colors */
+
+/* modules */
+@import url("/home/henry/.config/waybar/css/mpris.css"); /* media */
+@import url("/home/henry/.config/waybar/css/workspaces.css"); /* workspaces */
+@import url("/home/henry/.config/waybar/css/clock.css"); /* clock */
+@import url("/home/henry/.config/waybar/css/cpu.css"); /* cpu */
+@import url("/home/henry/.config/waybar/css/memory.css"); /* ram */
+@import url("/home/henry/.config/waybar/css/pulseaudio.css"); /* audio */

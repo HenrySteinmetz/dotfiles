@@ -1,0 +1,10 @@
+{
+  // cpu config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+  
+  "cpu": {
+    "interval": 10,
+    "format": "{}%  "
+  }
+}

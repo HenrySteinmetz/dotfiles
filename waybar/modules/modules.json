@@ -1,0 +1,6 @@
+{
+  // module config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+  "include": ["/home/henry/.config/waybar/modules/clock.json", "/home/henry/.config/waybar/modules/memory.json", "/home/henry/.config/waybar/modules/workspaces.json", "/home/henry/.config/waybar/modules/pulseaudio.json", "/home/henry/.config/waybar/modules/cpu.json", "/home/henry/.config/waybar/modules/mpris.json"]
+}

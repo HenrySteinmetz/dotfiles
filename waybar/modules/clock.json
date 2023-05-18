@@ -1,0 +1,32 @@
+{
+  // clock config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+
+  "clock": {
+    "interval": 60,
+    "format": "{:%H:%M}",
+    "format-alt": "{:%m.%d.%y %H:%M}",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span class='months'><b>{}</b></span>",
+        "days": "<span class='days'><b>{}</b></span>",
+        "weeks": "<span class='weeks'><b>W{}</b></span>",
+        "weekdays": "<span class='weekdays'><b>{}</b></span>",
+        "today": "<span class='today'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  }
+}

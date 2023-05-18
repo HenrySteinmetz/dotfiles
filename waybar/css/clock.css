@@ -1,0 +1,12 @@
+/*
+  clock css
+  github: https://github.com/HenrySteinmetz/ 
+  discord: Handy#1684
+*/
+
+@import url("/home/henry/.config/waybar/css/colors.css"); /* custemizable colors */
+
+#clock {
+  margin-right: 5px;
+  color: @peach;
+}

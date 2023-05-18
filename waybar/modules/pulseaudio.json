@@ -1,0 +1,14 @@
+{
+  // pulseaudio config
+  // github: https://github.com/HenrySteinmetz
+  // discord: Handy#1684
+  
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-icons": {
+      "default": " "
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+  } 
+}
