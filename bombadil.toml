@@ -9,7 +9,7 @@ dotfiles_dir = "dotfiles"
 # vars = [ "vars.toml" ]
 
 # An array of post install shell commands
-posthooks = [ "cd dotfiles && chmod +x postinstall.sh && bash postinstall.sh" ]
+posthooks = [ "nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'" ]
 
 [settings.dots]
 hyprland = { source = "hypr", target = ".config/hypr" }
