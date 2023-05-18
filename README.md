@@ -1,6 +1,16 @@
 # dotfiles
 Arch linux dotfiles
 
+## Installation
+### Archlinux
+```sh
+ sudo pacman -S bombadil && cd
+ git clone https://github.com/HenrySteinmetz/dotfiles.git
+ cd dotfiles
+ bombadil link
+```
+
+
 ## Screenshots
 ![](https://raw.githubusercontent.com/HenrySteinmetz/dotfiles/main/screenshots/1.png)
 ![](https://raw.githubusercontent.com/HenrySteinmetz/dotfiles/main/screenshots/2.png)
